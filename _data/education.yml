@@ -1,0 +1,6 @@
+main:
+  - title: "Peking University"
+    details: "(2022.09 ~ Present) Undergraduate, Information and Computing Science"
+    image: ./assets/img/pku_colored.png
+    image_width: 40px
+    image_height: 40px

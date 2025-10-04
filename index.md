@@ -2,41 +2,39 @@
 layout: homepage
 ---
 
-## About Me
+## 😎 About Me
 
-I am a senior undergraduate student majoring in Artificial Intelligence at the School of EECS, [Peking University](https://www.pku.edu.cn/). I am honored to be advised by Prof. [Shanghang Zhang](https://www.shanghangzhang.com/) as a research intern at the [State Key Laboratory of Multimedia Information Processing](https://idm.pku.edu.cn/en/), School of Computer Science, Peking University.
+I'm a junior student at the [School of Electronic Engineering and Computer Science(EECS)](https://eecs.pku.edu.cn/), [Peking University](https://english.pku.edu.cn/). I'm honored to be advised by Prof. [Shanghang Zhang](https://www.shanghangzhang.com/), in [PKU HMI Lab](https://pku-hmi-lab.github.io/HMI-Web/). I'm now interning at [AI2Robotics](https://ai2robotics.com/). My research focuses on **Robotic Manipulation** and **Vision-Language-Action**. 
+*To do everything until the best.*
 
-My current research interests primarily lie in **multimodal learning** and **embodied AI**, with a focus on **world model**. Specifically, my research interests are dedicated to exploring robust and efficient methodologies for representing world states and modeling state transitions, with the overarching goal of advancing robotic planning capabilities. I am enthusiastic about contributing to and collaborating on innovative, cutting-edge research in this field.
+<!-- ## 🔬 Research Interests
 
-***I am currently seeking Ph.D. opportunities starting in Fall 2026. Please feel free to contact me if you are interested in my work or potential collaboration!***
+- **🦾 Robotic Manipulation:** Imatation Learning & Reinforcement Learning
+- **⚒️ Vision-Language-Action:** Multimodal Perception & Model Architecture -->
 
-## Research Interests
+{% include_relative _includes/research.md %}
 
-- **Multimodal Learning:** video understanding, VLM, video generation
-- **Embodied AI:** robot planning, VLA models, robot manipulation
+{% include_relative _includes/education.md %}
 
 {% include_relative _includes/experience.md %}
 
-## News🔥
+## 🎉 News
 
-<div class="news-ticker-container">
-    <ul class="news-ticker">
-        <li><strong>[Sept. 2025]</strong>📃 <a href="https://dyva-worldlm.github.io/">DyVA WorldLM</a> is released!</li>
-        <li><strong>[Jun. 2025]</strong>📃 Glad to present <a href="https://manipulate-in-dream.github.io/">MinD</a>! A dual-system World Model for robot manipulation.</li>
-        <li><strong>[Dec. 2024]</strong>🏅 I'm honored to be the recipient of the 1st Peking University YUNDING Scholarship.</li>
-        <li><strong>[Dec. 2024]</strong>📃 Our benchmark paper on sports video commentary for video LLMs is released!</li>
-    </ul>
-</div>
-<br>
+<strong>[Sep. 2025]</strong> Two Papers were accepted by <strong>NeurIPS 2025</strong> (Vision-Language-Action Model + Mobile Manipulation)  
+<strong>[Aug. 2025]</strong> One Paper was accepted by <strong>CoRL 2025</strong> (Vision-Language-Action Model)  
+<strong>[Jun. 2025]</strong> One Paper was accepted by <strong>IROS 2025</strong> (Low-Cost Data Collection)  
+<strong>[Apr. 2025]</strong> One Paper was accepted by <strong>RSS 2025</strong> (Robotic Manipulation Dataset)  
+<strong>[Feb. 2025]</strong> One Paper was accepted by <strong>CVPR 2025</strong> (3D Robotic Manipulation)  
+<strong>[Jan. 2024]</strong> One Paper was accepted by <strong>ICRA 2025</strong> (Occupancy Prediction)  
 
 {% include_relative _includes/publications.md %}
 
 ## Miscellaneous
 
-- I held the position of **President** of the Student Rugby🏉 Football🏈 Association of Peking University during the 2023-2024 academic year.
-- 🏈 I serve as the **defensive captain** of the university's American football team, playing as a linebacker and tight end. 🔥🔥🔥 Come see my [Pick6🏈](https://www.instagram.com/p/DBRcd9nPGZu/) V.S BISU Snowwolves🐺
-- 💪 I'm living on a gym lifestyle, hitting the gym at least twice a week.
-- 🎧 I love Hip-hop and R&B Music. I'm a huge fan of [J.Cole](https://open.spotify.com/artist/6l3HvQ5sa6mXTsMTB19rO5), [Ye](https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x) and [Usher](https://open.spotify.com/artist/23zg3TcAtWQy7J6upgbUnj).
+- 🔥 I was honored to be awarded with ***Peking University Huatai Technology Securities Scholarship*** and ***Excellent Student Leader*** in 2024.
+- ✨ I was honored to be awarded with ***Peking University Yanchuang Capital Scholarship*** and ***Merit Studentr*** in 2023.
+- 💪 I'm trying to live on a gym lifestyle, hitting the gym at least twice a week.
+- 🎸 I love Rock Music. I'm a huge fan of [New Pants](https://www.modernsky.com/home/artists/73/).
 
 <div style="width: 100px; height: 100px; margin: 0 auto; display: flex; justify-content: center; align-items: center;">
     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=WBS-C103szyqK9_Q1B6O3HihyzClmC4RQve17y7ef-U"></script>

@@ -37,100 +37,60 @@
     <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
-    </head>
+</head>
 
-    <body>
-    <!-- 特效页 -->
-    <div id="intro-page" style="
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #121212;
-        color:#3eb7f0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 9999;
-        flex-direction: column;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        opacity: 1; /* 初始完全可见 */
-        transition: opacity 1s ease; /* 淡出动画 */
-    ">
-        <!-- 固定文字 -->
-        <p style="
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            color: transparent; /* 文字颜色透明 */
-            -webkit-text-stroke: 1.5px #3eb7f0; /* 字体边框颜色为白色 */
-            ">Welcome to Kuangzhi Ge's Webpage</p>
+<body>
 
-        <!-- 逐字显现文字 -->
-        <h2 id="typewriter" style="font-size: 1.5rem; margin-bottom: 30px; color:white"></h2>
-
-        <!-- 提示文字 -->
-        <p style="
-            font-size: 1rem;
-            color: #bbbbbb;
-        ">click to continue</p>
-    </div>
-
-    <!-- 主页面内容 -->
-    <div id="main-content" style="
-        display: none;
-        opacity: 0; /* 初始完全不可见 */
-        transition: opacity 1s ease; /* 淡入动画 */
-    ">
+    <!-- 主页面内容（已默认可见） -->
+    <div id="main-content" style="display: block; opacity: 1;">
         <div class="wrapper">
-        <header>
-        {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
-        {% endif %}
+            <header>
+                {% if site.avatar %}
+                <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+                {% endif %}
 
-        <h1>{{ site.title }}</h1>
+                <h1>{{ site.title }}</h1>
 
-        {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
-        <br>
-        {% endif %}
-        {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener">
-            <autocolor>{{ site.affiliation }}</autocolor>
-        </a>
-        <br>
-        {% endif %}
-        {% if site.email %}
-        <email>{{ site.email }}</email>
-        {% endif %}
+                {% if site.position %}
+                <position style="font-size:1.10rem;">{{ site.position }}</position>
+                <br>
+                {% endif %}
+                {% if site.affiliation %}
+                <a href="{{ site.affiliation_link }}" rel="noopener">
+                    <autocolor>{{ site.affiliation }}</autocolor>
+                </a>
+                <br>
+                {% endif %}
+                {% if site.email %}
+                <email>{{ site.email }}</email>
+                {% endif %}
 
-        <br><br>
-        <div class="social-icons">
-            {% for social in site.social %}
-            <a href="{{ social.url }}" target="_blank" rel="noopener noreferrer" title="{{ social.platform }}">
-                <i class="{{ social.icon }}" style="font-size: {{ social.font_size | default: '1.2rem' }};"></i>
-            </a>
-            {% endfor %}
+                <br><br>
+                <div class="social-icons">
+                    {% for social in site.social %}
+                    <a href="{{ social.url }}" target="_blank" rel="noopener noreferrer" title="{{ social.platform }}">
+                        <i class="{{ social.icon }}" style="font-size: {{ social.font_size | default: '1.2rem' }};"></i>
+                    </a>
+                    {% endfor %}
+                </div>
+                <br>
+
+            </header>
+            <section>
+                {{ content }}
+                <br>
+                {% if site.enable_footnote %}
+                <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank"
+                    rel="noopener">Minimal Light</a> theme.</small></p>
+                {% endif %}
+            </section>
+            <footer></footer>
         </div>
-        <br>
-
-        </header>
-        <section>
-        {{ content }}
-        <br>
-        {% if site.enable_footnote %}
-        <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank"
-            rel="noopener">Minimal Light</a> theme.</small></p>
-        {% endif %}
-        </section>
-        <footer></footer>
     </div>
-</div>
 
     <script src="./assets/js/scale.fix.js"></script>
     <script src="./assets/js/favicon-switcher.js"></script>
-    <script src="./assets/js/intro-animation.js"></script>
+    <!-- 已移除 intro-animation.js 及特效相关节点 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
         window.dataLayer = window.dataLayer || [];

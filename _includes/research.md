@@ -1,8 +1,8 @@
-<h2 id="experience">⌨️ Internship</h2>
+<h2 id="research">💡 Research Interests</h2>
 
-<div class="experience">
-  <ol class="experience-list">
-    {% for item in site.data.experience.main %}
+<div class="research">
+  <ol class="research-list">
+    {% for item in site.data.research.main %}
     <li class="experience-item">
       <div class="experience-logo">
         <img src="{{ item.image }}" alt="{{ item.title }}" class="logo-img">

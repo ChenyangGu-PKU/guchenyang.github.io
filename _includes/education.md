@@ -1,8 +1,8 @@
-<h2 id="experience">⌨️ Internship</h2>
+<h2 id="education">🎓 Education</h2>
 
-<div class="experience">
-  <ol class="experience-list">
-    {% for item in site.data.experience.main %}
+<div class="education">
+  <ol class="education-list">
+    {% for item in site.data.education.main %}
     <li class="experience-item">
       <div class="experience-logo">
         <img src="{{ item.image }}" alt="{{ item.title }}" class="logo-img">

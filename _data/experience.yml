@@ -1,11 +1,12 @@
 main:
-  - title: "Peking University"
-    details: "(2022.09-Present) B.S in Computer Science"
-    image: ./assets/img/pku_colored.png
-    image_width: 40px
-    image_height: 40px
-  - title: "HMI Lab, National Key Laboratory for Multimedia Information Processing"
-    details: "(2024.01-Present) Undergraduate Research Assistant"
-    image: ./assets/img/hmi_logo.jpeg
+  - title: "Beijing Academy of Artificial Intelligence"
+    details: "(2024.11 ~ 2025.06) Intern, Embodied Multi-Modal Large Model Center"
+    image: ./assets/img/baai_logo.png
     image_width: 80px
+    image_height: 40px
+    
+  - title: "AI2Robotics"
+    details: "(2025.06 ~ Present) Intern, X-Lab"
+    image: ./assets/img/ai2robotics_logo.png
+    image_width: 40px
     image_height: 40px

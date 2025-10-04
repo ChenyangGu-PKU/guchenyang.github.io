@@ -1,5 +1,5 @@
 <h2 id="publications" style="margin: 2px 0px -15px; display: flex; align-items: baseline;">
-  Selected Publications
+  📑 Publications
   <small style="font-size: 0.6rem; font-weight: 400; margin-left: 1em;">
     <a href="https://scholar.google.com/citations?hl=zh-CN&user=_kPOfsoAAAAJ" target="_blank" rel="noopener">(Click for full list)</a>
   </small>
@@ -8,9 +8,10 @@
 <div class="publications">
 <div id="filters" class="filters">
   <button class="btn active" data-filter="*">All</button>
-  <button class="btn" data-filter="World Model">World Model</button>
-  <button class="btn" data-filter="Embodied AI">Embodied AI</button>
-  <button class="btn" data-filter="Multimodal Learning">Multimodal Learning</button>
+  <button class="btn" data-filter="Imitation Learning">Imitation Learning</button>
+  <button class="btn" data-filter="Reinforcement Learning">Reinforcement Learning</button>
+  <button class="btn" data-filter="VLA">VLA</button>
+  <button class="btn" data-filter="Foundation Policy">Foundation Policy</button>
   </div>
 <ol class="bibliography">
 

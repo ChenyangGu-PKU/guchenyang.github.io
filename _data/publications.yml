@@ -1,30 +1,48 @@
 main:
-  - title: "Can World Models Benefit VLMs for World Dynamics?"
-    authors: "Kevin Zhang*, <strong>Kuangzhi Ge</strong>*, Xiaowei Chi*, Renrui Zhang, Shaojun Shi, Zhen Dong, Sirui Han✉, Shanghang Zhang✉"
-    pdf: https://arxiv.org/pdf/2510.00855v1
-    code: https://github.com/zyzkevin/dyva-worldlm
-    page: https://dyva-worldlm.github.io/
-    bibtex: https://github.com/KuangzhiGe/kuangzhige.github.io/blob/main/_data/dyva.bib
-    image: ./assets/img/pub/dyva.png
-    notes: "In submission"
-    tags: "World Model, Multimodal Learning, VLM"
+  - title: "Fast-in-Slow: A Dual-System Foundation Model Unifying Fast Manipulation within Slow Reasoning"
+    authors: "Hao Chen*, Jiaming Liu*, <strong><u>Chenyang Gu</u>*</strong>, Zhuoyang Liu*, Renrui Zhang, Xiaoqi Li, Xiao He, Yandong Guo, Chi-Wing Fu, Shanghang Zhang✉, Pheng-Ann Heng✉"
+    pdf: https://arxiv.org/pdf/2506.01953
+    code: https://github.com/CHEN-H01/Fast-in-Slow
+    page: https://fast-in-slow.github.io/
+    bibtex: https://github.com/guchenyang/guchenyang.github.io/blob/main/_data/fis.bib
+    image: ./assets/img/pub/fis.png
+    notes: "NeurIPS 2025"
+    tags: "Imitation Learning, VLA"
 
-  - title: "MinD: Learning A Dual-System World Model for Real-Time Planning and Implicit Risk Analysis"
-    authors: "Xiaowei Chi*, <strong>Kuangzhi Ge</strong>*, Jiaming Liu†, Siyuan Zhou, Peidong Jia, Kevin Zhang, Yuzhen Liu, Tingguang Li, Sirui Han, Shanghang Zhang✉, Yike Guo✉"
-    pdf: https://arxiv.org/pdf/2506.18897
-    code: https://github.com/manipulate-in-dream/MinD
-    page: https://manipulate-in-dream.github.io/
-    bibtex: https://github.com/KuangzhiGe/kuangzhige.github.io/blob/main/_data/mind.bib
-    image: ./assets/img/pub/mind.png
-    notes: "In submission"
-    tags: "World Model, Embodied AI"
+  - title: "Lift3D Foundation Policy: Lifting 2D Large-Scale Pretrained Models for Robust 3D Robotic Manipulation"
+    authors: "Yueru Jia*, Jiaming Liu*, Sixiang Chen*, <strong><u>Chenyang Gu</u>*</strong>, Zhilue Wang, Longzan Luo, Lily Lee, Pengwei Wang, Zhongyuan Wang, Renrui Zhang, Shanghang Zhang✉"
+    pdf: https://arxiv.org/abs/2411.18623
+    code: https://github.com/PKU-HMI-Lab/LIFT3D
+    page: https://lift3d-web.github.io/
+    bibtex: https://github.com/guchenyang/guchenyang.github.io/blob/main/_data/lift3d.bib
+    image: ./assets/img/pub/lift3d.png
+    notes: "CVPR 2025"
+    tags: "Imitation Learning, Foundation Policy"
 
-  - title: "SCBench: A Sports Commentary Benchmark for Video LLMs"
-    authors: "<strong>Kuangzhi Ge</strong>*, Lingjun Chen*, Kevin Zhang†, Yulin Luo, Tianyu Shi, Liaoyuan Fan, Xiang Li, Guanqun Wang, Shanghang Zhang✉"
-    # conference_short: MICCAI
-    # conference: "International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023."
-    pdf: https://arxiv.org/pdf/2412.17637
-    bibtex: https://github.com/KuangzhiGe/kuangzhige.github.io/blob/main/_data/scbench.bib
-    image: ./assets/img/pub/scbench.png
+  - title: "AC-DIT: Adaptive Coordination Diffusion Transformer for Mobile Manipulation"
+    authors: "Sixiang Chen*, Jiaming Liu*, Siyuan Qian*, Han Jiang, Lily Li, Renrui Zhang, Zhuoyang Liu, <strong><u>Chenyang Gu</u></strong>, Chengkai Hou, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang✉"
+    pdf: https://arxiv.org/pdf/2507.01961
+    code: https://github.com/PKU-HMI-Lab/AC-DiT
+    page: https://ac-dit.github.io/
+    bibtex: https://github.com/guchenyang/guchenyang.github.io/blob/main/_data/acdit.bib
+    image: ./assets/img/pub/acdit.png
+    notes: "NeurIPS 2025"
+    tags: "Imitation Learning"
+
+  - title: "SliceOcc: Indoor 3D Semantic Occupancy Prediction with Vertical Slice Representation"
+    authors: "Jianing Li, Hao Wang, <strong><u>Chenyang Gu</u></strong>,, Ming Lu, Wenzhao Zheng, Li Du, Shanghang Zhang✉"
+    pdf: https://arxiv.org/pdf/2501.16684
+    code: https://github.com/NorthSummer/SliceOcc
+    bibtex: https://github.com/guchenyang/guchenyang.github.io/blob/main/_data/slice.bib
+    image: ./assets/img/pub/slice.png
+    notes: "ICRA 2025"
+
+  - title: "HybridVLA: Collaborative Diffusion and Autoregression in a Unified Vision-Language-Action Model"
+    authors: "Jiaming Liu*, Hao Chen*, Pengju An, Zhuoyang Liu, Renrui Zhang, <strong><u>Chenyang Gu</u></strong>, Xiaoqi Li, Ziyu Guo, Sixiang Chen, Mengzhen Liu, Chengkai Hou, Mengdi Zhao, KC alex Zhou, Pheng-Ann Heng, Shanghang Zhang✉"
+    pdf: https://arxiv.org/pdf/2503.10631
+    code: https://github.com/PKU-HMI-Lab/Hybrid-VLA
+    page: https://hybrid-vla.github.io/
+    bibtex: https://github.com/guchenyang/guchenyang.github.io/blob/main/_data/hybrid.bib
+    image: ./assets/img/pub/hybrid.png
     notes: "In submission"
-    tags: "Multimodal Learning, VLM, Benchmark"
+    tags: "Imitation Learning, VLA"
